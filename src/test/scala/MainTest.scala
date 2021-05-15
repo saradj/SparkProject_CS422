@@ -269,7 +269,7 @@ class MainTest extends FunSuite {
     val res = lsh.eval(rdd_query)
 
     assert(Main.precision(ground, res) > Main.precision(ground, res1))
-
+    //print(res.collectAsMap().foreach(println))
     assert(res.count() == rdd_query.count())
     assert(res.flatMap(x => x._2).count() < res1.flatMap(x => x._2).count())
   }
