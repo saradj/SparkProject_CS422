@@ -16,7 +16,7 @@ class BaseConstructionBalanced(sqlContext: SQLContext,
     .execute(data)
     .map(x => (x._2, x._1))
     .groupBy(_._1)
-    .map { case (h, films) => (h, films.map(_._2).toSet) }
+    .map { case (h, films) => (h, films.map(_._2).toSet) }.cache()
 
   def computeMinHashHistogram(queries: RDD[(String, Int)])
     : Array[(Int, Int)] = { //returns tuple hash with numb of movies
@@ -46,7 +46,7 @@ class BaseConstructionBalanced(sqlContext: SQLContext,
       queries: RDD[(String, List[String])]): RDD[(String, Set[String])] = {
     //compute near neighbors with load balancing here
 
-    val query_hashed = minhash.execute(queries) //.map(x=>(x._2,x._1))
+    val query_hashed = minhash.execute(queries).cache() //.map(x=>(x._2,x._1))
     val histogram = computeMinHashHistogram(query_hashed) //check??
     val partitions_queries = computePartitions(histogram)
 
@@ -57,10 +57,11 @@ class BaseConstructionBalanced(sqlContext: SQLContext,
         .getOrElse(partitions_queries(0))
 
     val data_modified = data_hashed
-      .map(x => (getPartition(x._1), x))
+      .map(x => (getPartition(x._1), x)).cache()
 
     val query_modified =
-      query_hashed.map(x => (x._2, x._1)).map(x => (getPartition(x._1), x))
+      query_hashed.map(x => (x._2, x._1)).map(x => (getPartition(x._1), x)).cache()
+
     query_modified
       .cogroup(data_modified)
       .mapPartitions(

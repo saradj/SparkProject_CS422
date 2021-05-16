@@ -12,14 +12,14 @@ class BaseConstruction(sqlContext: SQLContext,
     .execute(data)
     .map(x => (x._2, x._1))
     .groupBy(_._1)
-    .map { case (h, films) => (h, films.map(_._2).toSet) }
+    .map { case (h, films) => (h, films.map(_._2).toSet) }.cache()
 
 
   override def eval(
       queries: RDD[(String, List[String])]): RDD[(String, Set[String])] = {
 
     val rdd_modified: RDD[(Int, String)] =
-      minhash.execute(queries).map(x => (x._2, x._1))
+      minhash.execute(queries).map(x => (x._2, x._1)).cache()
 
    rdd_modified
       .join(data_modified)

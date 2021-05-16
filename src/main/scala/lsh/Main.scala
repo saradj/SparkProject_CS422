@@ -454,9 +454,9 @@ object Main {
   }
 
   def main(args: Array[String]) {
-    import java.io.{FileOutputStream, PrintStream}
-    val out = new PrintStream(new FileOutputStream("output.txt"))
-    System.setOut(out)
+    //val out = new PrintStream(new FileOutputStream("output.txt"))
+    //System.setOut(out)
+    /*
     val conf = new SparkConf().setAppName("app").setMaster("local[*]")
     val sc = SparkContext.getOrCreate(conf)
     val map_cl_q = Map(
@@ -500,6 +500,55 @@ object Main {
       }
       println()
       println()
+    }*/
+    val conf = new SparkConf()
+      .setAppName("app")//.setMaster("local[*]")
+      .set("spark.executor.memory", "16G")
+      .set("spark.shuffle.file.buffer", "16M")
+    val sc = SparkContext.getOrCreate(conf)
+    val sqlContext = new org.apache.spark.sql.SQLContext(sc)
+
+    sc.setLogLevel("OFF")
+
+    val corpus_file = "hdfs://iccluster041.iccluster.epfl.ch:8020/cs422-data/corpus-skewplusplus.csv/part-00000"
+
+    val rdd_corpus_fragment = sc
+      .textFile(corpus_file)
+      .map(x => x.toString.split('|'))
+      .map(x => (x(0), x.slice(1, x.size).toList))
+      .repartition(2)
+      .cache()
+
+    val rdd_corpus = ((1 to 10).map(x => rdd_corpus_fragment).reduce(_ ++ _)).repartition(2)
+
+    val query_file = "hdfs://iccluster041.iccluster.epfl.ch:8020/cs422-data/queries-skewplusplus.csv/part-00000"
+    val rdd_query = sc
+      .textFile(query_file)
+      .map(x => x.toString.split('|'))
+      .map(x => (x(0), x.slice(1, x.size).toList))
+      .repartition(2)
+      .cache()
+
+    println(rdd_corpus.count() + rdd_query.count())
+
+    val lsh1 = new BaseConstruction(sqlContext, rdd_corpus, 42)
+    val lsh2 = new BaseConstructionBalanced(sqlContext, rdd_corpus, 42, 2)
+
+    for (i <- 1 to 10) {
+      val t1 = System.nanoTime
+
+      val res2 = lsh1.eval(rdd_query).flatMap(x => x._2).count()
+
+      val duration1 = (System.nanoTime - t1) / 1e9d
+
+      val t2 = System.nanoTime
+
+      val res1 = lsh2.eval(rdd_query).flatMap(x => x._2).count()
+
+      val duration2 = (System.nanoTime - t2) / 1e9d
+
+      println("Duration for base" + duration1)
+      println("Duration for base balanced"+duration2)
     }
   }
 }
