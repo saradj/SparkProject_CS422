@@ -30,10 +30,14 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\queries-10-10-skew.csv[0m
 [0m[[0m[0mdebug[0m] [0m[0m	queries-20-10-skew.csv[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\queries-20-10-skew.csv[0m
+[0m[[0m[0mdebug[0m] [0m[0m	lsh\Main$$anonfun$main$1$$anonfun$20.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\lsh\Main$$anonfun$main$1$$anonfun$20.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	data\corpus-1.csv\part-00000[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\data\corpus-1.csv\part-00000[0m
 [0m[[0m[0mdebug[0m] [0m[0m	queries-20-2-skew.csv\.part-00000.crc[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\queries-20-2-skew.csv\.part-00000.crc[0m
+[0m[[0m[0mdebug[0m] [0m[0m	lsh\Main$$anonfun$16$$anonfun$apply$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\lsh\Main$$anonfun$16$$anonfun$apply$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	lsh\BaseConstructionBalanced$$anonfun$5.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\lsh\BaseConstructionBalanced$$anonfun$5.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	lsh\BaseConstructionBalanced$$anonfun$4$$anonfun$apply$1.class[0m
@@ -52,8 +56,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\queries-1-10.csv\.part-00000.crc[0m
 [0m[[0m[0mdebug[0m] [0m[0m	data\corpus-1.csv\.part-00000.crc[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\data\corpus-1.csv\.part-00000.crc[0m
-[0m[[0m[0mdebug[0m] [0m[0m	lsh\Main$$anonfun$lsh$Main$$computeDistDifference$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\lsh\Main$$anonfun$lsh$Main$$computeDistDifference$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	queries-20-2.csv\part-00000[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\queries-20-2.csv\part-00000[0m
 [0m[[0m[0mdebug[0m] [0m[0m	data[0m
@@ -84,8 +86,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\data\queries-1-2.csv\_SUCCESS[0m
 [0m[[0m[0mdebug[0m] [0m[0m	queries-1-2.csv\part-00000[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\queries-1-2.csv\part-00000[0m
-[0m[[0m[0mdebug[0m] [0m[0m	lsh\Main$$anonfun$25.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\lsh\Main$$anonfun$25.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	data\queries-10-10-skew.csv\.part-00000.crc[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\data\queries-10-10-skew.csv\.part-00000.crc[0m
 [0m[[0m[0mdebug[0m] [0m[0m	corpus-1.csv[0m
@@ -130,8 +130,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\data\queries-20-2-skew.csv\part-00000[0m
 [0m[[0m[0mdebug[0m] [0m[0m	lsh\Main$$anonfun$eval_query$3.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\lsh\Main$$anonfun$eval_query$3.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	lsh\Main$$anonfun$main$1$$anonfun$27.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\lsh\Main$$anonfun$main$1$$anonfun$27.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	queries-1-2.csv\.part-00000.crc[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\queries-1-2.csv\.part-00000.crc[0m
 [0m[[0m[0mdebug[0m] [0m[0m	lsh\Main$$anonfun$16.class[0m
@@ -216,12 +214,12 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\data\queries-10-2-skew.csv\.part-00000.crc[0m
 [0m[[0m[0mdebug[0m] [0m[0m	queries-10-10-skew.csv\part-00000[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\queries-10-10-skew.csv\part-00000[0m
-[0m[[0m[0mdebug[0m] [0m[0m	lsh\Main$$anonfun$23$$anonfun$apply$2.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\lsh\Main$$anonfun$23$$anonfun$apply$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	data\queries-10-2.csv\_SUCCESS[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\data\queries-10-2.csv\_SUCCESS[0m
 [0m[[0m[0mdebug[0m] [0m[0m	queries-10-10-skew.csv\_SUCCESS[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\queries-10-10-skew.csv\_SUCCESS[0m
+[0m[[0m[0mdebug[0m] [0m[0m	lsh\Main$$anonfun$main$1$$anonfun$apply$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\lsh\Main$$anonfun$main$1$$anonfun$apply$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	data\queries-20-2.csv[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\data\queries-20-2.csv[0m
 [0m[[0m[0mdebug[0m] [0m[0m	corpus-20.csv\part-00000[0m
@@ -318,6 +316,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\lsh\BaseConstructionBroadcast$$anonfun$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	corpus-10.csv[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\corpus-10.csv[0m
+[0m[[0m[0mdebug[0m] [0m[0m	lsh\Main$$anonfun$main$1$$anonfun$25.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\lsh\Main$$anonfun$main$1$$anonfun$25.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	lsh\Main$$anonfun$14.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\lsh\Main$$anonfun$14.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	data\corpus-1.csv\_SUCCESS[0m
@@ -338,8 +338,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\lsh\Main$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	queries-20-2-skew.csv[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\queries-20-2-skew.csv[0m
-[0m[[0m[0mdebug[0m] [0m[0m	lsh\Main$$anonfun$17$$anonfun$apply$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\lsh\Main$$anonfun$17$$anonfun$apply$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	lsh\BaseConstructionBroadcast$$anonfun$3.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\lsh\BaseConstructionBroadcast$$anonfun$3.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	queries-10-2-skew.csv[0m
@@ -410,8 +408,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\lsh\BaseConstruction$$anonfun$3.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	lsh\Main$$anonfun$eval_query$3$$anonfun$5.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\lsh\Main$$anonfun$eval_query$3$$anonfun$5.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	lsh\Main$$anonfun$main$1$$anonfun$apply$3.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\lsh\Main$$anonfun$main$1$$anonfun$apply$3.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	data\queries-20-2.csv\.part-00000.crc[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\data\queries-20-2.csv\.part-00000.crc[0m
 [0m[[0m[0mdebug[0m] [0m[0m	lsh\BaseConstructionBalanced$$anonfun$7.class[0m
@@ -424,6 +420,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\lsh\ANDConstruction$$anonfun$eval$4.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	data\queries-10-2.csv[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\data\queries-10-2.csv[0m
+[0m[[0m[0mdebug[0m] [0m[0m	lsh\Main$$anonfun$main$1$$anonfun$19.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\lsh\Main$$anonfun$main$1$$anonfun$19.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	lsh\Main$$anonfun$eval_query$2$$anonfun$3.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Sara\Desktop\MASTER\sem2\databases\Project-2-sdjambaz\target\scala-2.11\classes\lsh\Main$$anonfun$eval_query$2$$anonfun$3.class[0m
 [0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

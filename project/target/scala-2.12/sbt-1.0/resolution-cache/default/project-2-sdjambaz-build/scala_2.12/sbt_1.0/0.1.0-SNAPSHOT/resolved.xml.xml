@@ -4,7 +4,7 @@
 		module="project-2-sdjambaz-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20210415142134"
+		publication="20210515210044"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

@@ -16,6 +16,7 @@ class BaseConstructionBalanced(sqlContext: SQLContext,
     .execute(data)
     .map(x => (x._2, x._1))
     .groupBy(_._1)
+    //print()
     .map { case (h, films) => (h, films.map(_._2).toSet) }.cache()
 
   def computeMinHashHistogram(queries: RDD[(String, Int)])
@@ -66,9 +67,7 @@ class BaseConstructionBalanced(sqlContext: SQLContext,
       .cogroup(data_modified)
       .mapPartitions(
         grouped_iter => {
-
           var res = new ListBuffer[(String, Set[String])]()
-
           while (grouped_iter.hasNext) {
             val grouped = grouped_iter.next()
             val queries_on_partition = grouped._2._1 //.sortBy(_._1)
@@ -78,7 +77,6 @@ class BaseConstructionBalanced(sqlContext: SQLContext,
               res = res :+ (queryTuple._2, set)
             }
           }
-
           res.iterator
         }
       )

@@ -32,4 +32,5 @@ class BaseConstructionBroadcast(sqlContext: SQLContext,
       .map(x => (x._2, bc.value.getOrElse(x._1, Set[String]())))
     res
   }
+
 }
